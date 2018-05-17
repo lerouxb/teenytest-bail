@@ -1,0 +1,10 @@
+{
+    "extends": "eslint-config-hapi",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    globals: {
+      window: true,
+      document: true
+    }
+}
